@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FIT2097_A2_JackJ.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{468A065A-C45F-45F6-A9FA-440FAA4EABB2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FIT2097_A2_JackJ.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FIT2097_A2_JackJEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{455A4224-0674-4C40-8590-24B9177834E1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FIT2097_A2_JackJ">
+      <UniqueIdentifier>{8AFBCF33-13F6-41FC-9653-DF1103E7C09C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FIT2097_A2_JackJ\FIT2097_A2_JackJ.Build.cs">
+      <Filter>Source\FIT2097_A2_JackJ</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FIT2097_A2_JackJ\FIT2097_A2_JackJ.cpp">
+      <Filter>Source\FIT2097_A2_JackJ</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FIT2097_A2_JackJ\FIT2097_A2_JackJ.h">
+      <Filter>Source\FIT2097_A2_JackJ</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FIT2097_A2_JackJ\FIT2097_A2_JackJCharacter.cpp">
+      <Filter>Source\FIT2097_A2_JackJ</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FIT2097_A2_JackJ\FIT2097_A2_JackJCharacter.h">
+      <Filter>Source\FIT2097_A2_JackJ</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FIT2097_A2_JackJ\FIT2097_A2_JackJGameMode.cpp">
+      <Filter>Source\FIT2097_A2_JackJ</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FIT2097_A2_JackJ\FIT2097_A2_JackJGameMode.h">
+      <Filter>Source\FIT2097_A2_JackJ</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FIT2097_A2_JackJ\FIT2097_A2_JackJHUD.cpp">
+      <Filter>Source\FIT2097_A2_JackJ</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FIT2097_A2_JackJ\FIT2097_A2_JackJHUD.h">
+      <Filter>Source\FIT2097_A2_JackJ</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FIT2097_A2_JackJ\FIT2097_A2_JackJProjectile.cpp">
+      <Filter>Source\FIT2097_A2_JackJ</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FIT2097_A2_JackJ\FIT2097_A2_JackJProjectile.h">
+      <Filter>Source\FIT2097_A2_JackJ</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\FIT2097_A2_JackJ\StaticReplicatingActor.h">
+      <Filter>Source\FIT2097_A2_JackJ</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FIT2097_A2_JackJ\StaticReplicatingActor.cpp">
+      <Filter>Source\FIT2097_A2_JackJ</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
