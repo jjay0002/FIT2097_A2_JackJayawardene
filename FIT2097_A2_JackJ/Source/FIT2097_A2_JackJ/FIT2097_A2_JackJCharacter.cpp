@@ -12,6 +12,8 @@
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 
+#include "DrawDebugHelpers.h"
+
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
 //////////////////////////////////////////////////////////////////////////
@@ -118,7 +120,7 @@ void AFIT2097_A2_JackJCharacter::SetupPlayerInputComponent(class UInputComponent
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	// Bind fire event
-	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AFIT2097_A2_JackJCharacter::OnFire);
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AFIT2097_A2_JackJCharacter::CallMyTrace);
 
 	// Enable touchscreen input
 	EnableTouchscreenMovement(PlayerInputComponent);
@@ -312,7 +314,7 @@ FString AFIT2097_A2_JackJCharacter::MyRole()
 	}
 }
 
-/*
+
 //***************************************************************************************************
 //** Trace functions - used to detect items we are looking at in the world
 //***************************************************************************************************
@@ -362,6 +364,9 @@ bool AFIT2097_A2_JackJCharacter::Trace(
 	// Force clear the HitData which contains our results
 	HitOut = FHitResult(ForceInit);
 
+	//Draw the raycast line
+	DrawDebugLine(World, HitOut.TraceStart, HitOut.TraceEnd, FColor::Red, false, 10.0f, 0, 10.0f);
+
 	// Perform our trace
 	World->LineTraceSingleByChannel
 	(
@@ -407,7 +412,7 @@ void AFIT2097_A2_JackJCharacter::CallMyTrace()
 		if (HitData.GetActor())
 		{
 
-			//UE_LOG(LogClass, Warning, TEXT("This a testing statement. %s"), *HitData.GetActor()->GetName());
+			//UE_LOG(LogClass, Warning, TEXT("pan gt hentai. %s"), *HitData.GetActor()->GetName());
 			ProcessTraceHit(HitData);
 
 		}
@@ -421,7 +426,7 @@ void AFIT2097_A2_JackJCharacter::CallMyTrace()
 	else
 	{
 		// We did not hit an Actor
-		ClearPickupInfo();
+		//ClearPickupInfo();
 
 	}
 
@@ -433,11 +438,11 @@ void AFIT2097_A2_JackJCharacter::CallMyTrace()
 
 void AFIT2097_A2_JackJCharacter::ProcessTraceHit(FHitResult& HitOut)
 {
-
+	/*
 	// Cast the actor to APickup
 	APickup* const TestPickup = Cast<APickup>(HitOut.GetActor());
 
-	if (TestPickup)
+	if (TestPickup != nullptr)
 	{
 		// Keep a pointer to the Pickup
 		CurrentPickup = TestPickup;
@@ -456,6 +461,6 @@ void AFIT2097_A2_JackJCharacter::ProcessTraceHit(FHitResult& HitOut)
 		//UE_LOG(LogClass, Warning, TEXT("TestPickup is NOT a Pickup!"));
 		ClearPickupInfo();
 	}
+	*/
 }
 
-*/
