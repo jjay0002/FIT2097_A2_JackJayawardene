@@ -8,12 +8,29 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
 #ifdef FIT2097_A2_JACKJ_FIT2097_A2_JackJCharacter_generated_h
 #error "FIT2097_A2_JackJCharacter.generated.h already included, missing '#pragma once' in FIT2097_A2_JackJCharacter.h"
 #endif
 #define FIT2097_A2_JACKJ_FIT2097_A2_JackJCharacter_generated_h
 
 #define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_RPC_WRAPPERS \
+	virtual bool ServerDestroy_Validate(AActor* ); \
+	virtual void ServerDestroy_Implementation(AActor* actor_to_destory); \
+ \
+	DECLARE_FUNCTION(execServerDestroy) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_actor_to_destory); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		if (!P_THIS->ServerDestroy_Validate(Z_Param_actor_to_destory)) \
+		{ \
+			RPC_ValidateFailed(TEXT("ServerDestroy_Validate")); \
+			return; \
+		} \
+		P_THIS->ServerDestroy_Implementation(Z_Param_actor_to_destory); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execMyRole) \
 	{ \
@@ -25,6 +42,22 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual bool ServerDestroy_Validate(AActor* ); \
+	virtual void ServerDestroy_Implementation(AActor* actor_to_destory); \
+ \
+	DECLARE_FUNCTION(execServerDestroy) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_actor_to_destory); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		if (!P_THIS->ServerDestroy_Validate(Z_Param_actor_to_destory)) \
+		{ \
+			RPC_ValidateFailed(TEXT("ServerDestroy_Validate")); \
+			return; \
+		} \
+		P_THIS->ServerDestroy_Implementation(Z_Param_actor_to_destory); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execMyRole) \
 	{ \
@@ -35,6 +68,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
+#define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_EVENT_PARMS \
+	struct FIT2097_A2_JackJCharacter_eventServerDestroy_Parms \
+	{ \
+		AActor* actor_to_destory; \
+	};
+
+
+#define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_CALLBACK_WRAPPERS
 #define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFIT2097_A2_JackJCharacter(); \
@@ -90,12 +131,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFIT2097_A2_JackJCharacter); \
 	FORCEINLINE static uint32 __PPO__L_MotionController() { return STRUCT_OFFSET(AFIT2097_A2_JackJCharacter, L_MotionController); }
 
 
-#define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_11_PROLOG
+#define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_11_PROLOG \
+	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_EVENT_PARMS
+
+
 #define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
 	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_RPC_WRAPPERS \
+	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_CALLBACK_WRAPPERS \
 	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_INCLASS \
 	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_STANDARD_CONSTRUCTORS \
 public: \
@@ -107,6 +152,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
 	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_CALLBACK_WRAPPERS \
 	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_INCLASS_NO_PURE_DECLS \
 	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \

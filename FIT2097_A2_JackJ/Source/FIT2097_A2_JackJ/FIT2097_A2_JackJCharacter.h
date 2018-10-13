@@ -157,5 +157,9 @@ public:
 	void CallMyTrace();
 
 	void ProcessTraceHit(FHitResult& HitOut);
+
+
+	UFUNCTION(Server, Reliable, WithValidation)
+		void ServerDestroy(AActor* actor_to_destory);
 };
 

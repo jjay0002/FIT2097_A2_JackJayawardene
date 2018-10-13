@@ -12,7 +12,9 @@
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 
+#include "Engine.h"
 #include "DrawDebugHelpers.h"
+#include "StaticReplicatingActor.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -400,10 +402,10 @@ void AFIT2097_A2_JackJCharacter::CallMyTrace()
 
 	// What Actors do we want our trace to Ignore?
 	TArray<AActor*> ActorsToIgnore;
-
+	
 	//Ignore the player character - so you don't hit yourself!
 	ActorsToIgnore.Add(this);
-
+	
 	// Call our Trace() function with the paramaters we have set up
 	// If it Hits anything
 	if (Trace(GetWorld(), ActorsToIgnore, Start, End, HitData, ECC_Visibility, false))
@@ -411,9 +413,28 @@ void AFIT2097_A2_JackJCharacter::CallMyTrace()
 		// Process our HitData
 		if (HitData.GetActor())
 		{
+			if (GEngine)
+			{
+				AStaticReplicatingActor* rActor = Cast<AStaticReplicatingActor>(HitData.GetActor());
 
-			//UE_LOG(LogClass, Warning, TEXT("pan gt hentai. %s"), *HitData.GetActor()->GetName());
-			ProcessTraceHit(HitData);
+				if (rActor)
+				{
+					GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, "YYEET");
+				}
+
+				GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::White, HitData.GetActor()->GetName());
+				
+				if (Role == ROLE_Authority) {
+					//HitData.GetActor()->Destroy();
+				}
+				else { 
+					//ServerDestroy(HitData.GetActor());
+				}
+			}
+			
+
+			//UE_LOG(LogClass, Warning, TEXT("This a testing statement. %s"), *HitData.GetActor()->GetName());
+			//ProcessTraceHit(HitData);
 
 		}
 		else
@@ -464,3 +485,11 @@ void AFIT2097_A2_JackJCharacter::ProcessTraceHit(FHitResult& HitOut)
 	*/
 }
 
+void AFIT2097_A2_JackJCharacter::ServerDestroy_Implementation(AActor* actor_to_destory) {
+
+	actor_to_destory->Destroy();
+}
+
+bool AFIT2097_A2_JackJCharacter::ServerDestroy_Validate(AActor* actor_to_destory) {
+	return actor_to_destory != nullptr;
+}

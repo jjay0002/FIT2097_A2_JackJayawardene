@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeFIT2097_A2_JackJ_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/FIT2097_A2_JackJ",
 				PKG_CompiledIn | 0x00000000,
-				0x2B3C2A5D,
-				0x1E4EAA79,
+				0xDDA10757,
+				0xC4C9024C,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

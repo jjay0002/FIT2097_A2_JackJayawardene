@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FIT2097_A2_JackJ-5692.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\FIT2097_A2_JackJ\FIT2097_A2_JackJ.cpp.obj"
+"C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\FIT2097_A2_JackJ\FIT2097_A2_JackJCharacter.cpp.obj"
+"C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\FIT2097_A2_JackJ\FIT2097_A2_JackJGameMode.cpp.obj"
+"C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\FIT2097_A2_JackJ\FIT2097_A2_JackJHUD.cpp.obj"
+"C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\FIT2097_A2_JackJ\FIT2097_A2_JackJProjectile.cpp.obj"
+"C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\FIT2097_A2_JackJ\StaticReplicatingActor.cpp.obj"
+"C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\FIT2097_A2_JackJ\FIT2097_A2_JackJ.init.gen.cpp.obj"
+"C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\FIT2097_A2_JackJ\FIT2097_A2_JackJCharacter.gen.cpp.obj"
+"C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\FIT2097_A2_JackJ\FIT2097_A2_JackJGameMode.gen.cpp.obj"
+"C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\FIT2097_A2_JackJ\FIT2097_A2_JackJHUD.gen.cpp.obj"
+"C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\FIT2097_A2_JackJ\FIT2097_A2_JackJProjectile.gen.cpp.obj"
+"C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\FIT2097_A2_JackJ\StaticReplicatingActor.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\FIT2097_A2_JackJ\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097_A2_JackJ-5692.lib"

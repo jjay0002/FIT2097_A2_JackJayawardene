@@ -18,6 +18,8 @@ void EmptyLinkFunctionForGeneratedCodeFIT2097_A2_JackJCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_FIT2097_A2_JackJ();
 	FIT2097_A2_JACKJ_API UFunction* Z_Construct_UFunction_AFIT2097_A2_JackJCharacter_MyRole();
+	FIT2097_A2_JACKJ_API UFunction* Z_Construct_UFunction_AFIT2097_A2_JackJCharacter_ServerDestroy();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
@@ -28,11 +30,19 @@ void EmptyLinkFunctionForGeneratedCodeFIT2097_A2_JackJCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_AFIT2097_A2_JackJCharacter_ServerDestroy = FName(TEXT("ServerDestroy"));
+	void AFIT2097_A2_JackJCharacter::ServerDestroy(AActor* actor_to_destory)
+	{
+		FIT2097_A2_JackJCharacter_eventServerDestroy_Parms Parms;
+		Parms.actor_to_destory=actor_to_destory;
+		ProcessEvent(FindFunctionChecked(NAME_AFIT2097_A2_JackJCharacter_ServerDestroy),&Parms);
+	}
 	void AFIT2097_A2_JackJCharacter::StaticRegisterNativesAFIT2097_A2_JackJCharacter()
 	{
 		UClass* Class = AFIT2097_A2_JackJCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "MyRole", &AFIT2097_A2_JackJCharacter::execMyRole },
+			{ "ServerDestroy", &AFIT2097_A2_JackJCharacter::execServerDestroy },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -60,6 +70,25 @@ void EmptyLinkFunctionForGeneratedCodeFIT2097_A2_JackJCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_AFIT2097_A2_JackJCharacter_ServerDestroy()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_actor_to_destory = { UE4CodeGen_Private::EPropertyClass::Object, "actor_to_destory", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(FIT2097_A2_JackJCharacter_eventServerDestroy_Parms, actor_to_destory), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_actor_to_destory,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "FIT2097_A2_JackJCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AFIT2097_A2_JackJCharacter, "ServerDestroy", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x80220CC0, sizeof(FIT2097_A2_JackJCharacter_eventServerDestroy_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AFIT2097_A2_JackJCharacter_NoRegister()
 	{
 		return AFIT2097_A2_JackJCharacter::StaticClass();
@@ -75,6 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeFIT2097_A2_JackJCharacter() {}
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_AFIT2097_A2_JackJCharacter_MyRole, "MyRole" }, // 684766980
+				{ &Z_Construct_UFunction_AFIT2097_A2_JackJCharacter_ServerDestroy, "ServerDestroy" }, // 2793287325
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -250,7 +280,7 @@ void EmptyLinkFunctionForGeneratedCodeFIT2097_A2_JackJCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFIT2097_A2_JackJCharacter, 4203441588);
+	IMPLEMENT_CLASS(AFIT2097_A2_JackJCharacter, 795103776);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFIT2097_A2_JackJCharacter(Z_Construct_UClass_AFIT2097_A2_JackJCharacter, &AFIT2097_A2_JackJCharacter::StaticClass, TEXT("/Script/FIT2097_A2_JackJ"), TEXT("AFIT2097_A2_JackJCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFIT2097_A2_JackJCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

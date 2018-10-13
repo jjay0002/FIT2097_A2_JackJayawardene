@@ -1,0 +1,29 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for FIT2097_A2_JackJEditor (no existing makefile)
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-1163.dll".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-1163.pdb".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-296.dll".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-296.pdb".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-3633.dll".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-3633.pdb".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-4055.dll".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-4055.pdb".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-4226.dll".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-4226.pdb".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-4250.dll".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-4250.pdb".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-5974.dll".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-5974.pdb".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-7842.dll".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-7842.pdb".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-9315.dll".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-9315.pdb".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-9617.dll".
+  Deleting old hot reload file: "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Binaries\Win64\UE4Editor-FIT2097_A2_JackJ-9617.pdb".
+  Performing 2 actions (2 in parallel)
+  [2/2] Link UE4Editor-FIT2097_A2_JackJ.lib
+  [1/2] Link UE4Editor-FIT2097_A2_JackJ.dll
+     Creating library C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097_A2_JackJ.lib and object C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097_A2_JackJ.exp
+     Creating library C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097_A2_JackJ.suppressed.lib and object C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097_A2_JackJ.suppressed.exp
+  Deploying FIT2097_A2_JackJEditor Win64 Development...
+  Total build time: 9.24 seconds (Local executor: 1.22 seconds)
