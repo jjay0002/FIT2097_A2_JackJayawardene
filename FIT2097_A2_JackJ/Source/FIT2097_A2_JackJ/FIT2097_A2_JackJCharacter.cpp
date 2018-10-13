@@ -419,7 +419,8 @@ void AFIT2097_A2_JackJCharacter::CallMyTrace()
 
 				if (rActor)
 				{
-					GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, "YYEET");
+					//GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, "YYEET");
+					rActor->InteractWithActor();
 				}
 
 				GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::White, HitData.GetActor()->GetName());

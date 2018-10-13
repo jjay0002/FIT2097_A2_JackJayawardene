@@ -43,5 +43,8 @@ void AStaticReplicatingActor::OnRep_IsActive()
 	//stuff when active
 }
 
+void AStaticReplicatingActor::InteractWithActor()
+{
+}
 
 

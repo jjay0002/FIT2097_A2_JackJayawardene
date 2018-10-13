@@ -35,6 +35,9 @@ protected:
 	UFUNCTION()
 		virtual void OnRep_IsActive();
 
+
+public:
+	virtual void InteractWithActor();
 };
 	
 	
