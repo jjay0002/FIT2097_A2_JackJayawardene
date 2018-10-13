@@ -920,3 +920,678 @@ LogInit: Object subsystem initialized
 [2018.10.13-10.27.08:536][889]LogSavePackage: Moving '../../../../../../Users/forwa/Documents/FIT2097/FIT2097_A2_JackJayawardene/FIT2097_A2_JackJ/Saved/A2_Level11F8C419424CAEB6E9BB539A062619D1.tmp' to '../../../../../../Users/forwa/Documents/FIT2097/FIT2097_A2_JackJayawardene/FIT2097_A2_JackJ/Content/MyMaps/A2_Level.umap'
 [2018.10.13-10.27.08:541][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/forwa/Documents/FIT2097/FIT2097_A2_JackJayawardene/FIT2097_A2_JackJ/Content/MyMaps/A2_Level.umap
 [2018.10.13-10.27.08:580][889]LogFileHelpers: Saving map 'A2_Level' took 0.530
+[2018.10.13-10.31.16:563][968]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.31.17:400][ 11]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.13-10.31.17:432][ 11]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.31.17:433][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.13-10.31.17:436][ 11]PIE: New page: PIE session: A2_Level (14 Oct 2018 8:31:17 am)
+[2018.10.13-10.31.17:437][ 11]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_1_A2_Level
+[2018.10.13-10.31.17:443][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005373s)
+[2018.10.13-10.31.17:444][ 11]LogAIModule: Creating AISystem for world A2_Level
+[2018.10.13-10.31.17:444][ 11]LogPlayLevel: PIE: World Init took: (0.001185s)
+[2018.10.13-10.31.17:444][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/A2_Level.A2_Level to /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level (0.007392s)
+[2018.10.13-10.31.17:512][ 11]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001969a53b240, Size=72
+[2018.10.13-10.31.17:515][ 11]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.13-10.31.17:533][ 11]LogInit: FAudioDevice initialized.
+[2018.10.13-10.31.17:539][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.31.17:663][ 11]LogLoad: Game class is 'FIT2097_A2_JackJGameMode'
+[2018.10.13-10.31.17:664][ 11]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/UEDPIE_1_A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.31.17:665][ 11]LogWorld: Bringing World /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level up for play (max tick rate 0) at 2018.10.13-21.31.17
+[2018.10.13-10.31.17:665][ 11]LogWorld: Bringing up level for play took: 0.001078
+[2018.10.13-10.31.17:668][ 11]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.31.17:668][ 11]LogTemp: Display: ParseSettings for IpNetDriver_6
+[2018.10.13-10.31.17:668][ 11]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.31.17:669][ 11]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.13-10.31.17:669][ 11]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.31.17:669][ 11]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 17777
+[2018.10.13-10.31.17:677][ 11]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_1_A2_Level 0.551
+[2018.10.13-10.31.17:684][ 11]PIE: New page: PIE session: A2_Level (14 Oct 2018 8:31:17 am)
+[2018.10.13-10.31.17:699][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.31.17:811][ 11]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2018.10.13-10.31.17:811][ 11]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.31.17:811][ 11]LogTemp: Display: ParseSettings for IpNetDriver_7
+[2018.10.13-10.31.17:811][ 11]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.13-10.31.17:811][ 11]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.13-10.31.17:812][ 11]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.31.17:812][ 11]LogNet: Game client on port 17777, rate 10000
+[2018.10.13-10.31.17:817][ 11]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/FirstPersonExampleMap 0.691
+[2018.10.13-10.31.17:833][ 11]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.31.17:833][ 11]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55248
+[2018.10.13-10.31.17:833][ 11]LogHandshake: SendConnectChallenge. Timestamp: 0.026689, Cookie: 029195143127077026165230176072089104015081156233251103125037
+[2018.10.13-10.31.17:835][ 11]LogHandshake: SendChallengeResponse. Timestamp: 0.026689, Cookie: 029195143127077026165230176072089104015081156233251103125037
+[2018.10.13-10.31.18:083][ 12]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55248
+[2018.10.13-10.31.18:083][ 12]LogHandshake: SendChallengeAck. InCookie: 029195143127077026165230176072089104015081156233251103125037
+[2018.10.13-10.31.18:083][ 12]LogNet: Server accepting post-challenge connection from: 127.0.0.1:55248
+[2018.10.13-10.31.18:083][ 12]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.31.18:083][ 12]LogNet: NotifyAcceptedConnection: Name: A2_Level, TimeStamp: 10/13/18 21:31:18, [UNetConnection] RemoteAddr: 127.0.0.1:55248, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.31.18:084][ 12]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:55248, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.31.18:084][ 12]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.31.18:134][ 13]LogNet: NotifyAcceptingChannel Control 0 server World /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level: Accepted
+[2018.10.13-10.31.18:134][ 13]LogNet: Remote platform little endian=1
+[2018.10.13-10.31.18:134][ 13]LogNet: This platform little endian=1
+[2018.10.13-10.31.18:154][ 14]LogNet: Login request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.13-10.31.18:156][ 14]LogNet: Welcomed by server (Level: /Game/MyMaps/UEDPIE_1_A2_Level, Game: /Script/FIT2097_A2_JackJ.FIT2097_A2_JackJGameMode)
+[2018.10.13-10.31.18:157][ 14]LogLoad: LoadMap: 127.0.0.1:17777//Game/MyMaps/UEDPIE_1_A2_Level?game=/Script/FIT2097_A2_JackJ.FIT2097_A2_JackJGameMode
+[2018.10.13-10.31.18:218][ 14]LogAIModule: Creating AISystem for world A2_Level
+[2018.10.13-10.31.18:218][ 14]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.31.18:227][ 14]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/UEDPIE_2_A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.31.18:227][ 14]LogWorld: Bringing World /Game/MyMaps/UEDPIE_2_A2_Level.A2_Level up for play (max tick rate 0) at 2018.10.13-21.31.18
+[2018.10.13-10.31.18:227][ 14]LogWorld: Bringing up level for play took: 0.008144
+[2018.10.13-10.31.18:227][ 14]LogLoad: Took 0.069707 seconds to LoadMap(/Game/MyMaps/UEDPIE_1_A2_Level)
+[2018.10.13-10.31.18:259][ 15]LogNet: Client netspeed is 10000
+[2018.10.13-10.31.18:259][ 15]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.13-10.31.18:267][ 15]LogNet: Join succeeded: 263
+[2018.10.13-10.31.19:785][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.31.30:466][185]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.31.45:562][522]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.31.45:595][522]LogSlate: Window 'FIT2097_A2_JackJ Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.13-10.31.45:690][522]LogSlate: Window 'FIT2097_A2_JackJ Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.13-10.31.45:737][522]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.31.45:790][522]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55248, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.31.45:790][522]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:55248, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.13-10.31.45
+[2018.10.13-10.31.45:790][522]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55248, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.31.45:790][522]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.31.45:791][522]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.13-10.31.45
+[2018.10.13-10.31.45:791][522]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.31.45:794][522]LogExit: GameNetDriver None shut down
+[2018.10.13-10.31.45:794][522]LogExit: GameNetDriver None shut down
+[2018.10.13-10.31.47:022][582]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.31.47:821][631]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.13-10.31.47:846][631]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.31.47:847][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.13-10.31.47:848][631]PIE: New page: PIE session: A2_Level (14 Oct 2018 8:31:47 am)
+[2018.10.13-10.31.47:848][631]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_1_A2_Level
+[2018.10.13-10.31.47:854][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005261s)
+[2018.10.13-10.31.47:856][631]LogAIModule: Creating AISystem for world A2_Level
+[2018.10.13-10.31.47:856][631]LogPlayLevel: PIE: World Init took: (0.002141s)
+[2018.10.13-10.31.47:856][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/A2_Level.A2_Level to /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level (0.007830s)
+[2018.10.13-10.31.47:903][631]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.13-10.31.47:920][631]LogInit: FAudioDevice initialized.
+[2018.10.13-10.31.47:925][631]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.31.48:035][631]LogLoad: Game class is 'FIT2097_A2_JackJGameMode'
+[2018.10.13-10.31.48:036][631]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/UEDPIE_1_A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.31.48:036][631]LogWorld: Bringing World /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level up for play (max tick rate 0) at 2018.10.13-21.31.48
+[2018.10.13-10.31.48:037][631]LogWorld: Bringing up level for play took: 0.000984
+[2018.10.13-10.31.48:039][631]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.31.48:039][631]LogTemp: Display: ParseSettings for IpNetDriver_8
+[2018.10.13-10.31.48:039][631]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.31.48:039][631]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.13-10.31.48:047][631]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.31.48:047][631]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 17777
+[2018.10.13-10.31.48:053][631]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_1_A2_Level 0.927
+[2018.10.13-10.31.48:055][631]PIE: New page: PIE session: A2_Level (14 Oct 2018 8:31:48 am)
+[2018.10.13-10.31.48:068][631]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.31.48:177][631]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2018.10.13-10.31.48:178][631]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.31.48:178][631]LogTemp: Display: ParseSettings for IpNetDriver_9
+[2018.10.13-10.31.48:178][631]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.13-10.31.48:178][631]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.13-10.31.48:178][631]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.31.48:178][631]LogNet: Game client on port 17777, rate 10000
+[2018.10.13-10.31.48:185][631]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/FirstPersonExampleMap 1.059
+[2018.10.13-10.31.48:209][631]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.31.48:210][631]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54217
+[2018.10.13-10.31.48:210][631]LogHandshake: SendConnectChallenge. Timestamp: 0.012061, Cookie: 026062027153218239124056106147048218149150018209046210019082
+[2018.10.13-10.31.48:211][631]LogHandshake: SendChallengeResponse. Timestamp: 0.012061, Cookie: 026062027153218239124056106147048218149150018209046210019082
+[2018.10.13-10.31.48:465][632]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54217
+[2018.10.13-10.31.48:465][632]LogHandshake: SendChallengeAck. InCookie: 026062027153218239124056106147048218149150018209046210019082
+[2018.10.13-10.31.48:465][632]LogNet: Server accepting post-challenge connection from: 127.0.0.1:54217
+[2018.10.13-10.31.48:465][632]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.31.48:466][632]LogNet: NotifyAcceptedConnection: Name: A2_Level, TimeStamp: 10/13/18 21:31:48, [UNetConnection] RemoteAddr: 127.0.0.1:54217, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.31.48:466][632]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:54217, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.31.48:468][632]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.31.48:509][633]LogNet: NotifyAcceptingChannel Control 0 server World /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level: Accepted
+[2018.10.13-10.31.48:509][633]LogNet: Remote platform little endian=1
+[2018.10.13-10.31.48:509][633]LogNet: This platform little endian=1
+[2018.10.13-10.31.48:538][634]LogNet: Login request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.13-10.31.48:539][634]LogNet: Welcomed by server (Level: /Game/MyMaps/UEDPIE_1_A2_Level, Game: /Script/FIT2097_A2_JackJ.FIT2097_A2_JackJGameMode)
+[2018.10.13-10.31.48:547][634]LogLoad: LoadMap: 127.0.0.1:17777//Game/MyMaps/UEDPIE_1_A2_Level?game=/Script/FIT2097_A2_JackJ.FIT2097_A2_JackJGameMode
+[2018.10.13-10.31.48:607][634]LogAIModule: Creating AISystem for world A2_Level
+[2018.10.13-10.31.48:607][634]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.31.48:609][634]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/UEDPIE_2_A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.31.48:609][634]LogWorld: Bringing World /Game/MyMaps/UEDPIE_2_A2_Level.A2_Level up for play (max tick rate 0) at 2018.10.13-21.31.48
+[2018.10.13-10.31.48:609][634]LogWorld: Bringing up level for play took: 0.001075
+[2018.10.13-10.31.48:609][634]LogLoad: Took 0.061445 seconds to LoadMap(/Game/MyMaps/UEDPIE_1_A2_Level)
+[2018.10.13-10.31.48:646][635]LogNet: Client netspeed is 10000
+[2018.10.13-10.31.48:646][635]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.13-10.31.48:654][635]LogNet: Join succeeded: 265
+[2018.10.13-10.31.50:402][672]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.31.56:810][768]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.32.10:594][ 77]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.32.10:640][ 77]LogSlate: Window 'FIT2097_A2_JackJ Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.13-10.32.10:727][ 77]LogSlate: Window 'FIT2097_A2_JackJ Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.13-10.32.10:779][ 77]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.32.10:834][ 77]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:54217, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.32.10:834][ 77]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:54217, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.13-10.32.10
+[2018.10.13-10.32.10:834][ 77]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:54217, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.32.10:834][ 77]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.32.10:834][ 77]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 3, Time: 2018.10.13-10.32.10
+[2018.10.13-10.32.10:834][ 77]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.32.10:837][ 77]LogExit: GameNetDriver None shut down
+[2018.10.13-10.32.10:838][ 77]LogExit: GameNetDriver None shut down
+[2018.10.13-10.32.12:335][143]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.32.13:027][189]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.13-10.32.13:054][189]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.32.13:055][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.13-10.32.13:058][189]PIE: New page: PIE session: A2_Level (14 Oct 2018 8:32:13 am)
+[2018.10.13-10.32.13:058][189]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_1_A2_Level
+[2018.10.13-10.32.13:062][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003602s)
+[2018.10.13-10.32.13:063][189]LogAIModule: Creating AISystem for world A2_Level
+[2018.10.13-10.32.13:063][189]LogPlayLevel: PIE: World Init took: (0.001739s)
+[2018.10.13-10.32.13:063][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/A2_Level.A2_Level to /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level (0.005649s)
+[2018.10.13-10.32.13:121][189]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.13-10.32.13:134][189]LogInit: FAudioDevice initialized.
+[2018.10.13-10.32.13:138][189]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.32.13:231][189]LogLoad: Game class is 'FIT2097_A2_JackJGameMode'
+[2018.10.13-10.32.13:232][189]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/UEDPIE_1_A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.32.13:232][189]LogWorld: Bringing World /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level up for play (max tick rate 0) at 2018.10.13-21.32.13
+[2018.10.13-10.32.13:232][189]LogWorld: Bringing up level for play took: 0.000966
+[2018.10.13-10.32.13:234][189]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.32.13:234][189]LogTemp: Display: ParseSettings for IpNetDriver_10
+[2018.10.13-10.32.13:234][189]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.32.13:235][189]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.13-10.32.13:235][189]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.32.13:235][189]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 17777
+[2018.10.13-10.32.13:241][189]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_1_A2_Level 0.115
+[2018.10.13-10.32.13:242][189]PIE: New page: PIE session: A2_Level (14 Oct 2018 8:32:13 am)
+[2018.10.13-10.32.13:256][189]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.32.13:355][189]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2018.10.13-10.32.13:355][189]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.32.13:355][189]LogTemp: Display: ParseSettings for IpNetDriver_11
+[2018.10.13-10.32.13:355][189]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.13-10.32.13:355][189]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.13-10.32.13:356][189]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.32.13:356][189]LogNet: Game client on port 17777, rate 10000
+[2018.10.13-10.32.13:360][189]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/FirstPersonExampleMap 0.234
+[2018.10.13-10.32.13:377][189]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.32.13:377][189]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54219
+[2018.10.13-10.32.13:377][189]LogHandshake: SendConnectChallenge. Timestamp: 0.011935, Cookie: 036135096184074018232040213141112052069034203068115184008040
+[2018.10.13-10.32.13:380][189]LogHandshake: SendChallengeResponse. Timestamp: 0.011935, Cookie: 036135096184074018232040213141112052069034203068115184008040
+[2018.10.13-10.32.13:623][190]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54219
+[2018.10.13-10.32.13:623][190]LogHandshake: SendChallengeAck. InCookie: 036135096184074018232040213141112052069034203068115184008040
+[2018.10.13-10.32.13:623][190]LogNet: Server accepting post-challenge connection from: 127.0.0.1:54219
+[2018.10.13-10.32.13:623][190]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.32.13:623][190]LogNet: NotifyAcceptedConnection: Name: A2_Level, TimeStamp: 10/13/18 21:32:13, [UNetConnection] RemoteAddr: 127.0.0.1:54219, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.32.13:623][190]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:54219, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.32.13:624][190]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.32.13:676][191]LogNet: NotifyAcceptingChannel Control 0 server World /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level: Accepted
+[2018.10.13-10.32.13:676][191]LogNet: Remote platform little endian=1
+[2018.10.13-10.32.13:676][191]LogNet: This platform little endian=1
+[2018.10.13-10.32.13:702][192]LogNet: Login request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.13-10.32.13:704][192]LogNet: Welcomed by server (Level: /Game/MyMaps/UEDPIE_1_A2_Level, Game: /Script/FIT2097_A2_JackJ.FIT2097_A2_JackJGameMode)
+[2018.10.13-10.32.13:712][192]LogLoad: LoadMap: 127.0.0.1:17777//Game/MyMaps/UEDPIE_1_A2_Level?game=/Script/FIT2097_A2_JackJ.FIT2097_A2_JackJGameMode
+[2018.10.13-10.32.13:767][192]LogAIModule: Creating AISystem for world A2_Level
+[2018.10.13-10.32.13:767][192]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.32.13:768][192]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/UEDPIE_2_A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.32.13:768][192]LogWorld: Bringing World /Game/MyMaps/UEDPIE_2_A2_Level.A2_Level up for play (max tick rate 0) at 2018.10.13-21.32.13
+[2018.10.13-10.32.13:769][192]LogWorld: Bringing up level for play took: 0.000909
+[2018.10.13-10.32.13:769][192]LogLoad: Took 0.056569 seconds to LoadMap(/Game/MyMaps/UEDPIE_1_A2_Level)
+[2018.10.13-10.32.13:812][193]LogNet: Client netspeed is 10000
+[2018.10.13-10.32.13:813][193]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.13-10.32.13:819][193]LogNet: Join succeeded: 267
+[2018.10.13-10.32.15:986][232]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.32.22:115][357]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.32.27:818][478]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.32.31:778][567]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.32.31:818][567]LogSlate: Window 'FIT2097_A2_JackJ Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.13-10.32.31:930][567]LogSlate: Window 'FIT2097_A2_JackJ Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.13-10.32.31:996][567]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.32.32:049][567]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:54219, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.32.32:049][567]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:54219, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.13-10.32.32
+[2018.10.13-10.32.32:049][567]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:54219, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.32.32:049][567]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.32.32:049][567]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.13-10.32.32
+[2018.10.13-10.32.32:049][567]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.32.32:052][567]LogExit: GameNetDriver None shut down
+[2018.10.13-10.32.32:053][567]LogExit: GameNetDriver None shut down
+[2018.10.13-10.32.32:726][609]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.32.33:484][659]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.13-10.32.33:515][659]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.32.33:515][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.13-10.32.33:516][659]PIE: New page: PIE session: A2_Level (14 Oct 2018 8:32:33 am)
+[2018.10.13-10.32.33:517][659]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_1_A2_Level
+[2018.10.13-10.32.33:521][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004308s)
+[2018.10.13-10.32.33:522][659]LogAIModule: Creating AISystem for world A2_Level
+[2018.10.13-10.32.33:523][659]LogPlayLevel: PIE: World Init took: (0.002007s)
+[2018.10.13-10.32.33:523][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/A2_Level.A2_Level to /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level (0.006657s)
+[2018.10.13-10.32.33:575][659]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.13-10.32.33:589][659]LogInit: FAudioDevice initialized.
+[2018.10.13-10.32.33:597][659]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.32.33:684][659]LogLoad: Game class is 'FIT2097_A2_JackJGameMode'
+[2018.10.13-10.32.33:685][659]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/UEDPIE_1_A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.32.33:685][659]LogWorld: Bringing World /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level up for play (max tick rate 0) at 2018.10.13-21.32.33
+[2018.10.13-10.32.33:685][659]LogWorld: Bringing up level for play took: 0.001189
+[2018.10.13-10.32.33:688][659]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.32.33:688][659]LogTemp: Display: ParseSettings for IpNetDriver_12
+[2018.10.13-10.32.33:688][659]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.32.33:688][659]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.13-10.32.33:689][659]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.32.33:689][659]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 17777
+[2018.10.13-10.32.33:696][659]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_1_A2_Level 0.57
+[2018.10.13-10.32.33:697][659]PIE: New page: PIE session: A2_Level (14 Oct 2018 8:32:33 am)
+[2018.10.13-10.32.33:707][659]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.32.33:802][659]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2018.10.13-10.32.33:802][659]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.32.33:802][659]LogTemp: Display: ParseSettings for IpNetDriver_13
+[2018.10.13-10.32.33:802][659]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.13-10.32.33:803][659]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.13-10.32.33:803][659]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.32.33:803][659]LogNet: Game client on port 17777, rate 10000
+[2018.10.13-10.32.33:807][659]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/FirstPersonExampleMap 0.681
+[2018.10.13-10.32.33:831][659]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.32.33:831][659]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59739
+[2018.10.13-10.32.33:831][659]LogHandshake: SendConnectChallenge. Timestamp: 0.012464, Cookie: 126113080239135204040163230239134093053093148052154247242144
+[2018.10.13-10.32.33:833][659]LogHandshake: SendChallengeResponse. Timestamp: 0.012464, Cookie: 126113080239135204040163230239134093053093148052154247242144
+[2018.10.13-10.32.34:100][660]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59739
+[2018.10.13-10.32.34:100][660]LogHandshake: SendChallengeAck. InCookie: 126113080239135204040163230239134093053093148052154247242144
+[2018.10.13-10.32.34:100][660]LogNet: Server accepting post-challenge connection from: 127.0.0.1:59739
+[2018.10.13-10.32.34:100][660]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.32.34:100][660]LogNet: NotifyAcceptedConnection: Name: A2_Level, TimeStamp: 10/13/18 21:32:34, [UNetConnection] RemoteAddr: 127.0.0.1:59739, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.32.34:100][660]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:59739, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.32.34:102][660]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: PendingNetDriver IpNetDriver_13, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.32.34:165][661]LogNet: NotifyAcceptingChannel Control 0 server World /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level: Accepted
+[2018.10.13-10.32.34:165][661]LogNet: Remote platform little endian=1
+[2018.10.13-10.32.34:165][661]LogNet: This platform little endian=1
+[2018.10.13-10.32.34:197][662]LogNet: Login request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.13-10.32.34:198][662]LogNet: Welcomed by server (Level: /Game/MyMaps/UEDPIE_1_A2_Level, Game: /Script/FIT2097_A2_JackJ.FIT2097_A2_JackJGameMode)
+[2018.10.13-10.32.34:206][662]LogLoad: LoadMap: 127.0.0.1:17777//Game/MyMaps/UEDPIE_1_A2_Level?game=/Script/FIT2097_A2_JackJ.FIT2097_A2_JackJGameMode
+[2018.10.13-10.32.34:265][662]LogAIModule: Creating AISystem for world A2_Level
+[2018.10.13-10.32.34:266][662]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.32.34:268][662]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/UEDPIE_2_A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.32.34:268][662]LogWorld: Bringing World /Game/MyMaps/UEDPIE_2_A2_Level.A2_Level up for play (max tick rate 0) at 2018.10.13-21.32.34
+[2018.10.13-10.32.34:268][662]LogWorld: Bringing up level for play took: 0.001581
+[2018.10.13-10.32.34:268][662]LogLoad: Took 0.062214 seconds to LoadMap(/Game/MyMaps/UEDPIE_1_A2_Level)
+[2018.10.13-10.32.34:308][663]LogNet: Client netspeed is 10000
+[2018.10.13-10.32.34:309][663]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.13-10.32.34:315][663]LogNet: Join succeeded: 269
+[2018.10.13-10.32.42:995][851]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.32.56:663][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.33.04:068][231]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.33.04:120][231]LogSlate: Window 'FIT2097_A2_JackJ Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.13-10.33.04:222][231]LogSlate: Window 'FIT2097_A2_JackJ Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.13-10.33.04:278][231]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.33.04:331][231]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59739, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.33.04:331][231]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:59739, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.13-10.33.04
+[2018.10.13-10.33.04:331][231]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59739, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.33.04:331][231]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.33.04:331][231]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.13-10.33.04
+[2018.10.13-10.33.04:331][231]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.33.04:335][231]LogExit: GameNetDriver None shut down
+[2018.10.13-10.33.04:335][231]LogExit: GameNetDriver None shut down
+[2018.10.13-10.53.34:050][798]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.53.35:952][899]Candidate modules for hot reload:
+[2018.10.13-10.53.35:952][899]  FIT2097_A2_JackJ
+[2018.10.13-10.53.35:952][899]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FIT2097_A2_JackJ -ModuleWithSuffix=FIT2097_A2_JackJ,7469 Win64 Development -editorrecompile -canskiplink "C:/Users/forwa/Documents/FIT2097/FIT2097_A2_JackJayawardene/FIT2097_A2_JackJ/FIT2097_A2_JackJ.uproject" ]
+[2018.10.13-10.53.35:972][899]Warning: Starting HotReload took  0.1s.
+[2018.10.13-10.55.39:814][ 71]CompilerResultsLog: New page: Compilation - 14 Oct 2018 8:55:39 am
+[2018.10.13-10.55.39:815][ 71]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.13-10.55.39:816][ 71]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.13-10.55.39:816][ 71]CompilerResultsLog: Parsing headers for FIT2097_A2_JackJEditor
+[2018.10.13-10.55.39:816][ 71]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\FIT2097_A2_JackJ.uproject" "C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\FIT2097_A2_JackJEditor\Development\FIT2097_A2_JackJEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.13-10.55.39:817][ 71]CompilerResultsLog: Reflection code generated for FIT2097_A2_JackJEditor in 41.6552591 seconds
+[2018.10.13-10.55.39:817][ 71]CompilerResultsLog: Performing 8 actions (2 in parallel)
+[2018.10.13-10.55.39:817][ 71]CompilerResultsLog: FIT2097_A2_JackJ.init.gen.cpp
+[2018.10.13-10.55.39:817][ 71]CompilerResultsLog: MyDoor.gen.cpp
+[2018.10.13-10.55.39:817][ 71]CompilerResultsLog: FIT2097_A2_JackJCharacter.gen.cpp
+[2018.10.13-10.55.39:817][ 71]CompilerResultsLog: MyDoor.cpp
+[2018.10.13-10.55.39:817][ 71]CompilerResultsLog: FIT2097_A2_JackJGameMode.cpp
+[2018.10.13-10.55.39:817][ 71]CompilerResultsLog: FIT2097_A2_JackJCharacter.cpp
+[2018.10.13-10.55.39:817][ 71]CompilerResultsLog: [7/8] Link UE4Editor-FIT2097_A2_JackJ-7469.dll
+[2018.10.13-10.55.39:818][ 71]CompilerResultsLog: [8/8] Link UE4Editor-FIT2097_A2_JackJ-7469.lib
+[2018.10.13-10.55.39:818][ 71]CompilerResultsLog:    Creating library C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097_A2_JackJ-7469.lib and object C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097_A2_JackJ-7469.exp
+[2018.10.13-10.55.39:818][ 71]CompilerResultsLog:    Creating library C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097_A2_JackJ-7469.suppressed.lib and object C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097_A2_JackJ-7469.suppressed.exp
+[2018.10.13-10.55.39:818][ 71]CompilerResultsLog: Total build time: 123.09 seconds (Local executor: 72.97 seconds)
+[2018.10.13-10.55.39:818][ 71]LogMainFrame: MainFrame: Module compiling took 123.871 seconds
+[2018.10.13-10.55.39:958][ 71]LogClass: Could not find existing class FIT2097_A2_JackJCharacter in package /Script/FIT2097_A2_JackJ for HotReload, assuming new class
+[2018.10.13-10.55.39:958][ 71]LogClass: Function MyRole is new.
+[2018.10.13-10.55.39:965][ 71]LogClass: Function ServerDestroy is new.
+[2018.10.13-10.55.39:977][ 71]LogClass: Could not find existing class MyDoor in package /Script/FIT2097_A2_JackJ for HotReload, assuming new class
+[2018.10.13-10.55.39:980][ 71]LogClass: Function OpenDoor is new.
+[2018.10.13-10.55.40:009][ 71]LogHotReload: Re-instancing FIT2097_A2_JackJCharacter after hot-reload.
+[2018.10.13-10.55.40:619][ 71]LogHotReload: Re-instancing MyDoor after hot-reload.
+[2018.10.13-10.55.40:638][ 71]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_7:PersistentLevel.BP_MyDoor_C_0.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.55.40:638][ 71]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_7:PersistentLevel.BP_MyDoor_C_0.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.55.40:639][ 71]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.55.40:640][ 71]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.55.41:310][ 71]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_7:PersistentLevel.BP_MyDoor_C_0.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.55.41:311][ 71]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.55.41:313][ 71]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_7:PersistentLevel.BP_MyDoor_C_0.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.55.41:313][ 71]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.55.41:451][ 71]LogContentBrowser: Native class hierarchy updated for 'FIT2097_A2_JackJ' in 0.0017 seconds. Added 7 classes and 2 folders.
+[2018.10.13-10.55.41:455][ 71]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2018.10.13-10.55.41:979][ 71]LogContentBrowser: Native class hierarchy populated in 0.0173 seconds. Added 2460 classes and 562 folders.
+[2018.10.13-10.55.41:979][ 71]Display: HotReload took 126.1s.
+[2018.10.13-10.55.54:425][204]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.55.55:415][265]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.13-10.55.55:457][265]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.55.55:457][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.13-10.55.55:459][265]PIE: New page: PIE session: A2_Level (14 Oct 2018 8:55:55 am)
+[2018.10.13-10.55.55:459][265]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_1_A2_Level
+[2018.10.13-10.55.55:468][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008919s)
+[2018.10.13-10.55.55:470][265]LogAIModule: Creating AISystem for world A2_Level
+[2018.10.13-10.55.55:471][265]LogPlayLevel: PIE: World Init took: (0.002189s)
+[2018.10.13-10.55.55:471][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/A2_Level.A2_Level to /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level (0.011493s)
+[2018.10.13-10.55.55:614][265]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.13-10.55.55:633][265]LogInit: FAudioDevice initialized.
+[2018.10.13-10.55.55:637][265]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.55.55:736][265]LogLoad: Game class is 'FIT2097_A2_JackJGameMode'
+[2018.10.13-10.55.55:738][265]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/UEDPIE_1_A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.55.55:739][265]LogWorld: Bringing World /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level up for play (max tick rate 0) at 2018.10.13-21.55.55
+[2018.10.13-10.55.55:739][265]LogWorld: Bringing up level for play took: 0.001919
+[2018.10.13-10.55.55:743][265]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.55.55:743][265]LogTemp: Display: ParseSettings for IpNetDriver_14
+[2018.10.13-10.55.55:743][265]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.55.55:744][265]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.13-10.55.55:744][265]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.55.55:744][265]LogNet: GameNetDriver IpNetDriver_14 IpNetDriver listening on port 17777
+[2018.10.13-10.55.55:748][265]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_1_A2_Level 0.622
+[2018.10.13-10.55.55:750][265]PIE: New page: PIE session: A2_Level (14 Oct 2018 8:55:55 am)
+[2018.10.13-10.55.55:761][265]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.55.55:861][265]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2018.10.13-10.55.55:861][265]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.55.55:861][265]LogTemp: Display: ParseSettings for IpNetDriver_15
+[2018.10.13-10.55.55:862][265]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.13-10.55.55:862][265]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.13-10.55.55:863][265]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.55.55:864][265]LogNet: Game client on port 17777, rate 10000
+[2018.10.13-10.55.55:869][265]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/FirstPersonExampleMap 0.743
+[2018.10.13-10.55.55:887][265]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.55.55:887][265]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62867
+[2018.10.13-10.55.55:887][265]LogHandshake: SendConnectChallenge. Timestamp: 0.012949, Cookie: 186156073034005209074212032152063168140225007193037082082082
+[2018.10.13-10.55.55:896][265]LogHandshake: SendChallengeResponse. Timestamp: 0.012949, Cookie: 186156073034005209074212032152063168140225007193037082082082
+[2018.10.13-10.55.56:188][266]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62867
+[2018.10.13-10.55.56:188][266]LogHandshake: SendChallengeAck. InCookie: 186156073034005209074212032152063168140225007193037082082082
+[2018.10.13-10.55.56:188][266]LogNet: Server accepting post-challenge connection from: 127.0.0.1:62867
+[2018.10.13-10.55.56:188][266]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.55.56:188][266]LogNet: NotifyAcceptedConnection: Name: A2_Level, TimeStamp: 10/13/18 21:55:56, [UNetConnection] RemoteAddr: 127.0.0.1:62867, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.55.56:188][266]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:62867, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.55.56:190][266]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: PendingNetDriver IpNetDriver_15, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.55.56:247][267]LogNet: NotifyAcceptingChannel Control 0 server World /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level: Accepted
+[2018.10.13-10.55.56:247][267]LogNet: Remote platform little endian=1
+[2018.10.13-10.55.56:247][267]LogNet: This platform little endian=1
+[2018.10.13-10.55.56:274][268]LogNet: Login request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.13-10.55.56:277][268]LogNet: Welcomed by server (Level: /Game/MyMaps/UEDPIE_1_A2_Level, Game: /Script/FIT2097_A2_JackJ.FIT2097_A2_JackJGameMode)
+[2018.10.13-10.55.56:277][268]LogLoad: LoadMap: 127.0.0.1:17777//Game/MyMaps/UEDPIE_1_A2_Level?game=/Script/FIT2097_A2_JackJ.FIT2097_A2_JackJGameMode
+[2018.10.13-10.55.56:393][268]LogAIModule: Creating AISystem for world A2_Level
+[2018.10.13-10.55.56:394][268]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.55.56:395][268]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/UEDPIE_2_A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.55.56:396][268]LogWorld: Bringing World /Game/MyMaps/UEDPIE_2_A2_Level.A2_Level up for play (max tick rate 0) at 2018.10.13-21.55.56
+[2018.10.13-10.55.56:396][268]LogWorld: Bringing up level for play took: 0.001377
+[2018.10.13-10.55.56:396][268]LogLoad: Took 0.119617 seconds to LoadMap(/Game/MyMaps/UEDPIE_1_A2_Level)
+[2018.10.13-10.55.56:482][269]LogNet: Client netspeed is 10000
+[2018.10.13-10.55.56:482][269]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.13-10.55.56:488][269]LogNet: Join succeeded: 271
+[2018.10.13-10.55.58:139][306]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.56.06:120][425]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.56.15:811][640]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.56.15:848][640]LogSlate: Window 'FIT2097_A2_JackJ Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.13-10.56.15:941][640]LogSlate: Window 'FIT2097_A2_JackJ Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.13-10.56.15:991][640]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.56.16:040][640]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62867, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.10.13-10.56.16:040][640]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:62867, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID, Channels: 13, Time: 2018.10.13-10.56.16
+[2018.10.13-10.56.16:040][640]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62867, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.10.13-10.56.16:040][640]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.10.13-10.56.16:040][640]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID, Channels: 13, Time: 2018.10.13-10.56.16
+[2018.10.13-10.56.16:040][640]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.10.13-10.56.16:046][640]LogExit: GameNetDriver None shut down
+[2018.10.13-10.56.16:047][640]LogExit: GameNetDriver None shut down
+[2018.10.13-10.58.25:642][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.13-10.58.27:683][229]Candidate modules for hot reload:
+[2018.10.13-10.58.27:683][229]  FIT2097_A2_JackJ
+[2018.10.13-10.58.27:684][229]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FIT2097_A2_JackJ -ModuleWithSuffix=FIT2097_A2_JackJ,7620 Win64 Development -editorrecompile -canskiplink "C:/Users/forwa/Documents/FIT2097/FIT2097_A2_JackJayawardene/FIT2097_A2_JackJ/FIT2097_A2_JackJ.uproject" ]
+[2018.10.13-10.58.27:691][229]Warning: Starting HotReload took  0.0s.
+[2018.10.13-10.58.36:266][435]CompilerResultsLog: New page: Compilation - 14 Oct 2018 8:58:36 am
+[2018.10.13-10.58.36:267][435]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.13-10.58.36:267][435]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.13-10.58.36:267][435]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2018.10.13-10.58.36:267][435]CompilerResultsLog: MyDoor.cpp
+[2018.10.13-10.58.36:267][435]CompilerResultsLog: [2/3] Link UE4Editor-FIT2097_A2_JackJ-7620.dll
+[2018.10.13-10.58.36:267][435]CompilerResultsLog: [3/3] Link UE4Editor-FIT2097_A2_JackJ-7620.lib
+[2018.10.13-10.58.36:267][435]CompilerResultsLog:    Creating library C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097_A2_JackJ-7620.lib and object C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097_A2_JackJ-7620.exp
+[2018.10.13-10.58.36:267][435]CompilerResultsLog:    Creating library C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097_A2_JackJ-7620.suppressed.lib and object C:\Users\forwa\Documents\FIT2097\FIT2097_A2_JackJayawardene\FIT2097_A2_JackJ\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FIT2097_A2_JackJ-7620.suppressed.exp
+[2018.10.13-10.58.36:267][435]CompilerResultsLog: Total build time: 8.13 seconds (Local executor: 4.45 seconds)
+[2018.10.13-10.58.36:267][435]LogMainFrame: MainFrame: Module compiling took 8.595 seconds
+[2018.10.13-10.58.36:403][435]LogContentBrowser: Native class hierarchy updated for 'FIT2097_A2_JackJ' in 0.0013 seconds. Added 7 classes and 2 folders.
+[2018.10.13-10.58.36:408][435]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2018.10.13-10.58.36:826][435]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2460 classes and 562 folders.
+[2018.10.13-10.58.36:826][435]Display: HotReload took  9.2s.
+[2018.10.13-10.58.41:783][602]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.13-10.58.41:809][602]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.58.41:809][602]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.13-10.58.41:810][602]PIE: New page: PIE session: A2_Level (14 Oct 2018 8:58:41 am)
+[2018.10.13-10.58.41:810][602]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_1_A2_Level
+[2018.10.13-10.58.41:820][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009923s)
+[2018.10.13-10.58.41:821][602]LogAIModule: Creating AISystem for world A2_Level
+[2018.10.13-10.58.41:821][602]LogPlayLevel: PIE: World Init took: (0.001116s)
+[2018.10.13-10.58.41:821][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/A2_Level.A2_Level to /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level (0.011232s)
+[2018.10.13-10.58.41:918][602]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.13-10.58.41:932][602]LogInit: FAudioDevice initialized.
+[2018.10.13-10.58.42:044][602]LogLoad: Game class is 'FIT2097_A2_JackJGameMode'
+[2018.10.13-10.58.42:045][602]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/UEDPIE_1_A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.58.42:045][602]LogWorld: Bringing World /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level up for play (max tick rate 0) at 2018.10.13-21.58.42
+[2018.10.13-10.58.42:046][602]LogWorld: Bringing up level for play took: 0.001340
+[2018.10.13-10.58.42:048][602]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.58.42:048][602]LogTemp: Display: ParseSettings for IpNetDriver_16
+[2018.10.13-10.58.42:048][602]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.58.42:048][602]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.13-10.58.42:049][602]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.58.42:049][602]LogNet: GameNetDriver IpNetDriver_16 IpNetDriver listening on port 17777
+[2018.10.13-10.58.42:054][602]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_1_A2_Level 0.928
+[2018.10.13-10.58.42:056][602]PIE: New page: PIE session: A2_Level (14 Oct 2018 8:58:42 am)
+[2018.10.13-10.58.42:067][602]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.58.42:174][602]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2018.10.13-10.58.42:174][602]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.58.42:174][602]LogTemp: Display: ParseSettings for IpNetDriver_17
+[2018.10.13-10.58.42:175][602]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.13-10.58.42:175][602]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.13-10.58.42:175][602]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.58.42:175][602]LogNet: Game client on port 17777, rate 10000
+[2018.10.13-10.58.42:180][602]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/FirstPersonExampleMap 1.054
+[2018.10.13-10.58.42:197][602]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.58.42:197][602]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49479
+[2018.10.13-10.58.42:197][602]LogHandshake: SendConnectChallenge. Timestamp: 0.011518, Cookie: 195034162130006135205036181179124000222086203023234100030113
+[2018.10.13-10.58.42:199][602]LogHandshake: SendChallengeResponse. Timestamp: 0.011518, Cookie: 195034162130006135205036181179124000222086203023234100030113
+[2018.10.13-10.58.42:483][603]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49479
+[2018.10.13-10.58.42:483][603]LogHandshake: SendChallengeAck. InCookie: 195034162130006135205036181179124000222086203023234100030113
+[2018.10.13-10.58.42:483][603]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49479
+[2018.10.13-10.58.42:483][603]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.58.42:483][603]LogNet: NotifyAcceptedConnection: Name: A2_Level, TimeStamp: 10/13/18 21:58:42, [UNetConnection] RemoteAddr: 127.0.0.1:49479, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.58.42:483][603]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49479, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.58.42:484][603]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: PendingNetDriver IpNetDriver_17, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.58.42:534][604]LogNet: NotifyAcceptingChannel Control 0 server World /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level: Accepted
+[2018.10.13-10.58.42:534][604]LogNet: Remote platform little endian=1
+[2018.10.13-10.58.42:534][604]LogNet: This platform little endian=1
+[2018.10.13-10.58.42:562][605]LogNet: Login request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.13-10.58.42:563][605]LogNet: Welcomed by server (Level: /Game/MyMaps/UEDPIE_1_A2_Level, Game: /Script/FIT2097_A2_JackJ.FIT2097_A2_JackJGameMode)
+[2018.10.13-10.58.42:569][605]LogLoad: LoadMap: 127.0.0.1:17777//Game/MyMaps/UEDPIE_1_A2_Level?game=/Script/FIT2097_A2_JackJ.FIT2097_A2_JackJGameMode
+[2018.10.13-10.58.42:642][605]LogAIModule: Creating AISystem for world A2_Level
+[2018.10.13-10.58.42:643][605]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.58.42:644][605]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/UEDPIE_2_A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.58.42:645][605]LogWorld: Bringing World /Game/MyMaps/UEDPIE_2_A2_Level.A2_Level up for play (max tick rate 0) at 2018.10.13-21.58.42
+[2018.10.13-10.58.42:645][605]LogWorld: Bringing up level for play took: 0.001310
+[2018.10.13-10.58.42:645][605]LogLoad: Took 0.076103 seconds to LoadMap(/Game/MyMaps/UEDPIE_1_A2_Level)
+[2018.10.13-10.58.42:696][606]LogNet: Client netspeed is 10000
+[2018.10.13-10.58.42:696][606]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.13-10.58.42:706][606]LogNet: Join succeeded: 273
+[2018.10.13-10.58.44:859][653]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.58.53:868][777]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.59.03:949][  1]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.59.03:984][  1]LogSlate: Window 'FIT2097_A2_JackJ Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.13-10.59.04:084][  1]LogSlate: Window 'FIT2097_A2_JackJ Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.13-10.59.04:133][  1]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.59.04:190][  1]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49479, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.10.13-10.59.04:190][  1]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:49479, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID, Channels: 14, Time: 2018.10.13-10.59.04
+[2018.10.13-10.59.04:190][  1]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49479, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.10.13-10.59.04:190][  1]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_17, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.10.13-10.59.04:190][  1]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_17, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID, Channels: 14, Time: 2018.10.13-10.59.04
+[2018.10.13-10.59.04:190][  1]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_17, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.10.13-10.59.04:195][  1]LogExit: GameNetDriver None shut down
+[2018.10.13-10.59.04:195][  1]LogExit: GameNetDriver None shut down
+[2018.10.13-10.59.05:938][ 91]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.13-10.59.05:965][ 91]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.59.05:965][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.13-10.59.05:969][ 91]PIE: New page: PIE session: A2_Level (14 Oct 2018 8:59:05 am)
+[2018.10.13-10.59.05:969][ 91]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_1_A2_Level
+[2018.10.13-10.59.05:973][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004148s)
+[2018.10.13-10.59.05:974][ 91]LogAIModule: Creating AISystem for world A2_Level
+[2018.10.13-10.59.05:974][ 91]LogPlayLevel: PIE: World Init took: (0.000834s)
+[2018.10.13-10.59.05:974][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/A2_Level.A2_Level to /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level (0.005225s)
+[2018.10.13-10.59.06:021][ 91]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.13-10.59.06:033][ 91]LogInit: FAudioDevice initialized.
+[2018.10.13-10.59.06:141][ 91]LogLoad: Game class is 'FIT2097_A2_JackJGameMode'
+[2018.10.13-10.59.06:144][ 91]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/UEDPIE_1_A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.59.06:144][ 91]LogWorld: Bringing World /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level up for play (max tick rate 0) at 2018.10.13-21.59.06
+[2018.10.13-10.59.06:144][ 91]LogWorld: Bringing up level for play took: 0.002675
+[2018.10.13-10.59.06:148][ 91]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.59.06:148][ 91]LogTemp: Display: ParseSettings for IpNetDriver_18
+[2018.10.13-10.59.06:148][ 91]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.59.06:149][ 91]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.13-10.59.06:149][ 91]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.59.06:149][ 91]LogNet: GameNetDriver IpNetDriver_18 IpNetDriver listening on port 17777
+[2018.10.13-10.59.06:155][ 91]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_1_A2_Level 1.029
+[2018.10.13-10.59.06:156][ 91]PIE: New page: PIE session: A2_Level (14 Oct 2018 8:59:06 am)
+[2018.10.13-10.59.06:166][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.59.06:273][ 91]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2018.10.13-10.59.06:273][ 91]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.59.06:273][ 91]LogTemp: Display: ParseSettings for IpNetDriver_19
+[2018.10.13-10.59.06:273][ 91]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.13-10.59.06:273][ 91]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.13-10.59.06:274][ 91]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.59.06:274][ 91]LogNet: Game client on port 17777, rate 10000
+[2018.10.13-10.59.06:280][ 91]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/FirstPersonExampleMap 1.154
+[2018.10.13-10.59.06:314][ 91]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.59.06:314][ 91]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63208
+[2018.10.13-10.59.06:314][ 91]LogHandshake: SendConnectChallenge. Timestamp: 0.011515, Cookie: 209039076021004016037042117093150007066199104085045113115148
+[2018.10.13-10.59.06:316][ 91]LogHandshake: SendChallengeResponse. Timestamp: 0.011515, Cookie: 209039076021004016037042117093150007066199104085045113115148
+[2018.10.13-10.59.06:568][ 92]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63208
+[2018.10.13-10.59.06:569][ 92]LogHandshake: SendChallengeAck. InCookie: 209039076021004016037042117093150007066199104085045113115148
+[2018.10.13-10.59.06:569][ 92]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63208
+[2018.10.13-10.59.06:569][ 92]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-10.59.06:569][ 92]LogNet: NotifyAcceptedConnection: Name: A2_Level, TimeStamp: 10/13/18 21:59:06, [UNetConnection] RemoteAddr: 127.0.0.1:63208, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_18, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.59.06:569][ 92]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63208, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_18, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.59.06:570][ 92]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_18, Driver: PendingNetDriver IpNetDriver_19, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-10.59.06:623][ 93]LogNet: NotifyAcceptingChannel Control 0 server World /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level: Accepted
+[2018.10.13-10.59.06:623][ 93]LogNet: Remote platform little endian=1
+[2018.10.13-10.59.06:623][ 93]LogNet: This platform little endian=1
+[2018.10.13-10.59.06:658][ 94]LogNet: Login request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.13-10.59.06:660][ 94]LogNet: Welcomed by server (Level: /Game/MyMaps/UEDPIE_1_A2_Level, Game: /Script/FIT2097_A2_JackJ.FIT2097_A2_JackJGameMode)
+[2018.10.13-10.59.06:667][ 94]LogLoad: LoadMap: 127.0.0.1:17777//Game/MyMaps/UEDPIE_1_A2_Level?game=/Script/FIT2097_A2_JackJ.FIT2097_A2_JackJGameMode
+[2018.10.13-10.59.06:724][ 94]LogAIModule: Creating AISystem for world A2_Level
+[2018.10.13-10.59.06:724][ 94]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-10.59.06:726][ 94]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/UEDPIE_2_A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-10.59.06:726][ 94]LogWorld: Bringing World /Game/MyMaps/UEDPIE_2_A2_Level.A2_Level up for play (max tick rate 0) at 2018.10.13-21.59.06
+[2018.10.13-10.59.06:726][ 94]LogWorld: Bringing up level for play took: 0.001557
+[2018.10.13-10.59.06:727][ 94]LogLoad: Took 0.059616 seconds to LoadMap(/Game/MyMaps/UEDPIE_1_A2_Level)
+[2018.10.13-10.59.06:767][ 95]LogNet: Client netspeed is 10000
+[2018.10.13-10.59.06:767][ 95]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.13-10.59.06:773][ 95]LogNet: Join succeeded: 275
+[2018.10.13-10.59.11:361][194]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.59.20:448][328]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-10.59.24:490][420]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.26:970][475]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.28:143][501]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.28:988][520]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.29:702][536]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.30:232][548]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.30:500][554]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.30:632][557]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.30:899][563]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.31:033][566]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.31:214][570]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.31:400][574]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.31:575][578]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.31:759][582]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.31:933][586]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.32:107][590]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.32:285][594]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.32:464][598]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.32:642][602]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.32:774][605]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.32:951][609]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.36:853][697]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.37:030][701]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-10.59.37:211][705]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.59.37:254][705]LogSlate: Window 'FIT2097_A2_JackJ Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.13-10.59.37:361][705]LogSlate: Window 'FIT2097_A2_JackJ Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.13-10.59.37:410][705]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-10.59.37:455][705]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63208, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_18, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.59.37:461][705]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63208, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_18, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.13-10.59.37
+[2018.10.13-10.59.37:461][705]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63208, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_18, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.59.37:462][705]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_19, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.59.37:462][705]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_19, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.13-10.59.37
+[2018.10.13-10.59.37:462][705]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_19, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-10.59.37:465][705]LogExit: GameNetDriver None shut down
+[2018.10.13-10.59.37:465][705]LogExit: GameNetDriver None shut down
+[2018.10.13-11.00.52:301][ 75]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.13-11.00.52:323][ 75]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-11.00.52:324][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.13-11.00.52:325][ 75]PIE: New page: PIE session: A2_Level (14 Oct 2018 9:00:52 am)
+[2018.10.13-11.00.52:332][ 75]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_1_A2_Level
+[2018.10.13-11.00.52:336][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004434s)
+[2018.10.13-11.00.52:338][ 75]LogAIModule: Creating AISystem for world A2_Level
+[2018.10.13-11.00.52:339][ 75]LogPlayLevel: PIE: World Init took: (0.002068s)
+[2018.10.13-11.00.52:339][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/A2_Level.A2_Level to /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level (0.006925s)
+[2018.10.13-11.00.52:398][ 75]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.13-11.00.52:412][ 75]LogInit: FAudioDevice initialized.
+[2018.10.13-11.00.52:511][ 75]LogLoad: Game class is 'FIT2097_A2_JackJGameMode'
+[2018.10.13-11.00.52:519][ 75]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/UEDPIE_1_A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-11.00.52:519][ 75]LogWorld: Bringing World /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level up for play (max tick rate 0) at 2018.10.13-22.00.52
+[2018.10.13-11.00.52:519][ 75]LogWorld: Bringing up level for play took: 0.007431
+[2018.10.13-11.00.52:522][ 75]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-11.00.52:522][ 75]LogTemp: Display: ParseSettings for IpNetDriver_20
+[2018.10.13-11.00.52:522][ 75]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-11.00.52:522][ 75]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.13-11.00.52:522][ 75]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-11.00.52:522][ 75]LogNet: GameNetDriver IpNetDriver_20 IpNetDriver listening on port 17777
+[2018.10.13-11.00.52:527][ 75]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_1_A2_Level -0.6
+[2018.10.13-11.00.52:528][ 75]PIE: New page: PIE session: A2_Level (14 Oct 2018 9:00:52 am)
+[2018.10.13-11.00.52:544][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-11.00.52:638][ 75]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2018.10.13-11.00.52:638][ 75]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-11.00.52:638][ 75]LogTemp: Display: ParseSettings for IpNetDriver_21
+[2018.10.13-11.00.52:638][ 75]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.13-11.00.52:638][ 75]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.13-11.00.52:639][ 75]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-11.00.52:639][ 75]LogNet: Game client on port 17777, rate 10000
+[2018.10.13-11.00.52:643][ 75]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/FirstPersonExampleMap -0.483
+[2018.10.13-11.00.52:659][ 75]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-11.00.52:659][ 75]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64755
+[2018.10.13-11.00.52:659][ 75]LogHandshake: SendConnectChallenge. Timestamp: 0.011388, Cookie: 242230008197038211148151134011217006224188062191098247035130
+[2018.10.13-11.00.52:661][ 75]LogHandshake: SendChallengeResponse. Timestamp: 0.011388, Cookie: 242230008197038211148151134011217006224188062191098247035130
+[2018.10.13-11.00.52:921][ 76]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64755
+[2018.10.13-11.00.52:921][ 76]LogHandshake: SendChallengeAck. InCookie: 242230008197038211148151134011217006224188062191098247035130
+[2018.10.13-11.00.52:921][ 76]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64755
+[2018.10.13-11.00.52:921][ 76]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.13-11.00.52:921][ 76]LogNet: NotifyAcceptedConnection: Name: A2_Level, TimeStamp: 10/13/18 22:00:52, [UNetConnection] RemoteAddr: 127.0.0.1:64755, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_20, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-11.00.52:921][ 76]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64755, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_20, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-11.00.52:922][ 76]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_20, Driver: PendingNetDriver IpNetDriver_21, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.13-11.00.52:973][ 77]LogNet: NotifyAcceptingChannel Control 0 server World /Game/MyMaps/UEDPIE_1_A2_Level.A2_Level: Accepted
+[2018.10.13-11.00.52:973][ 77]LogNet: Remote platform little endian=1
+[2018.10.13-11.00.52:973][ 77]LogNet: This platform little endian=1
+[2018.10.13-11.00.53:004][ 78]LogNet: Login request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.13-11.00.53:006][ 78]LogNet: Welcomed by server (Level: /Game/MyMaps/UEDPIE_1_A2_Level, Game: /Script/FIT2097_A2_JackJ.FIT2097_A2_JackJGameMode)
+[2018.10.13-11.00.53:006][ 78]LogLoad: LoadMap: 127.0.0.1:17777//Game/MyMaps/UEDPIE_1_A2_Level?game=/Script/FIT2097_A2_JackJ.FIT2097_A2_JackJGameMode
+[2018.10.13-11.00.53:066][ 78]LogAIModule: Creating AISystem for world A2_Level
+[2018.10.13-11.00.53:066][ 78]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.13-11.00.53:068][ 78]PIE: Warning: Trying to simulate physics on ''/Game/MyMaps/UEDPIE_2_A2_Level.A2_Level:PersistentLevel.BP_MyDoor_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.10.13-11.00.53:069][ 78]LogWorld: Bringing World /Game/MyMaps/UEDPIE_2_A2_Level.A2_Level up for play (max tick rate 0) at 2018.10.13-22.00.53
+[2018.10.13-11.00.53:069][ 78]LogWorld: Bringing up level for play took: 0.002623
+[2018.10.13-11.00.53:070][ 78]LogLoad: Took 0.064229 seconds to LoadMap(/Game/MyMaps/UEDPIE_1_A2_Level)
+[2018.10.13-11.00.53:122][ 79]LogNet: Client netspeed is 10000
+[2018.10.13-11.00.53:122][ 79]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.13-11.00.53:130][ 79]LogNet: Join succeeded: 277
+[2018.10.13-11.01.02:530][238]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-11.01.06:638][318]LogNet: Warning: UIpNetDriver::ProcessRemoteFunction: No owning connection for actor BP_MyDoor_2. Function OpenDoor will not be processed.
+[2018.10.13-11.01.14:427][486]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-11.01.22:326][657]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-11.01.22:355][657]LogSlate: Window 'FIT2097_A2_JackJ Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.13-11.01.22:464][657]LogSlate: Window 'FIT2097_A2_JackJ Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.13-11.01.22:510][657]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel' has LevelScriptBlueprint '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level' with GeneratedClass '/Game/MyMaps/A2_Level.A2_Level_C' with ClassGeneratedBy '/Game/MyMaps/A2_Level.A2_Level:PersistentLevel.A2_Level'
+[2018.10.13-11.01.22:566][657]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64755, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_20, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-11.01.22:567][657]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64755, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_20, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.13-11.01.22
+[2018.10.13-11.01.22:567][657]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64755, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_20, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-11.01.22:567][657]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_20, Driver: GameNetDriver IpNetDriver_21, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-11.01.22:567][657]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_20, Driver: GameNetDriver IpNetDriver_21, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.13-11.01.22
+[2018.10.13-11.01.22:567][657]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_20, Driver: GameNetDriver IpNetDriver_21, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.13-11.01.22:572][657]LogExit: GameNetDriver None shut down
+[2018.10.13-11.01.22:573][657]LogExit: GameNetDriver None shut down

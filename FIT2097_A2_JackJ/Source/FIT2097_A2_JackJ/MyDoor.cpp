@@ -11,14 +11,24 @@ AMyDoor::AMyDoor() : AStaticReplicatingActor(), door_rotate(0,0,0){
 
 void AMyDoor::Tick(float DeltaTime) {
 	Super::Tick(DeltaTime);
-	LerpDoor(DeltaTime);
+	if (Role == ROLE_Authority) {
+		LerpDoor(DeltaTime);
+	}
 }
 
 void AMyDoor::InteractWithActor() {
+	OpenDoor();
+	
+}
+
+void AMyDoor::OpenDoor_Implementation() {
 	door_rotate = FVector(0, 0, 90);
 }
 
 
+bool AMyDoor::OpenDoor_Validate(){
+	return true;
+}
 
 void AMyDoor::LerpDoor(float DeltaTime) {
 	FVector vec = FMath::Lerp(GetActorRotation().Euler(), door_rotate, 2.0f *DeltaTime);

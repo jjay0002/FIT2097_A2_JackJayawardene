@@ -158,7 +158,7 @@ public:
 
 	void ProcessTraceHit(FHitResult& HitOut);
 
-
+	//RPC
 	UFUNCTION(Server, Reliable, WithValidation)
 		void ServerDestroy(AActor* actor_to_destory);
 };

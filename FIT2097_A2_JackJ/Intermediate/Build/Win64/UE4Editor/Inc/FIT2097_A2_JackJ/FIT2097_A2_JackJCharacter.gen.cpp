@@ -82,6 +82,7 @@ void EmptyLinkFunctionForGeneratedCodeFIT2097_A2_JackJCharacter() {}
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 				{ "ModuleRelativePath", "FIT2097_A2_JackJCharacter.h" },
+				{ "ToolTip", "RPC" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AFIT2097_A2_JackJCharacter, "ServerDestroy", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x80220CC0, sizeof(FIT2097_A2_JackJCharacter_eventServerDestroy_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
@@ -104,7 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeFIT2097_A2_JackJCharacter() {}
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_AFIT2097_A2_JackJCharacter_MyRole, "MyRole" }, // 684766980
-				{ &Z_Construct_UFunction_AFIT2097_A2_JackJCharacter_ServerDestroy, "ServerDestroy" }, // 2793287325
+				{ &Z_Construct_UFunction_AFIT2097_A2_JackJCharacter_ServerDestroy, "ServerDestroy" }, // 2541482685
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -280,7 +281,7 @@ void EmptyLinkFunctionForGeneratedCodeFIT2097_A2_JackJCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFIT2097_A2_JackJCharacter, 795103776);
+	IMPLEMENT_CLASS(AFIT2097_A2_JackJCharacter, 667858925);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFIT2097_A2_JackJCharacter(Z_Construct_UClass_AFIT2097_A2_JackJCharacter, &AFIT2097_A2_JackJCharacter::StaticClass, TEXT("/Script/FIT2097_A2_JackJ"), TEXT("AFIT2097_A2_JackJCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFIT2097_A2_JackJCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
