@@ -160,6 +160,9 @@ public:
 
 	//RPC
 	UFUNCTION(Server, Reliable, WithValidation)
-		void ServerDestroy(AActor* actor_to_destory);
+		void RequestOpenDoor(AActor* doorActor);
+
+	UFUNCTION(Server, Reliable, WithValidation)
+		void RequestGetKey(AActor* keyActor);
 };
 

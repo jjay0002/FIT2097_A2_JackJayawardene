@@ -15,6 +15,9 @@
 #include "Engine.h"
 #include "DrawDebugHelpers.h"
 #include "StaticReplicatingActor.h"
+#include "MyDoor.h"
+#include "MyKey.h"
+
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -419,18 +422,21 @@ void AFIT2097_A2_JackJCharacter::CallMyTrace()
 
 				if (rActor)
 				{
-					//GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, "YYEET");
+					GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::White, HitData.GetActor()->GetName());
+					
 					rActor->InteractWithActor();
-				}
 
-				GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::White, HitData.GetActor()->GetName());
+					//Open door rpc
+					if (Cast<AMyDoor>(HitData.GetActor()) != nullptr) {
+						RequestOpenDoor(HitData.GetActor());
+					}
+
+					//Get key rpc
+					if (Cast<AMyKey>(HitData.GetActor()) != nullptr) {
+						RequestGetKey(HitData.GetActor());
+					}
+				}
 				
-				if (Role == ROLE_Authority) {
-					//HitData.GetActor()->Destroy();
-				}
-				else { 
-					//ServerDestroy(HitData.GetActor());
-				}
 			}
 			
 
@@ -486,11 +492,29 @@ void AFIT2097_A2_JackJCharacter::ProcessTraceHit(FHitResult& HitOut)
 	*/
 }
 
-void AFIT2097_A2_JackJCharacter::ServerDestroy_Implementation(AActor* actor_to_destory) {
+//RPCs for client & server to interact with actors
+void AFIT2097_A2_JackJCharacter::RequestOpenDoor_Implementation(AActor* doorActor) {
 
-	actor_to_destory->Destroy();
+	if (Cast<AMyDoor>(doorActor) != nullptr) {
+		Cast<AMyDoor>(doorActor)->OpenDoor();
+	}
+
 }
 
-bool AFIT2097_A2_JackJCharacter::ServerDestroy_Validate(AActor* actor_to_destory) {
-	return actor_to_destory != nullptr;
+bool AFIT2097_A2_JackJCharacter::RequestOpenDoor_Validate(AActor* doorActor) {
+	return doorActor != nullptr;
+}
+
+
+
+void AFIT2097_A2_JackJCharacter::RequestGetKey_Implementation(AActor* keyActor) {
+
+	if (Cast<AMyKey>(keyActor) != nullptr) {
+		Cast<AMyKey>(keyActor)->InteractWithActor();
+	}
+
+}
+
+bool AFIT2097_A2_JackJCharacter::RequestGetKey_Validate(AActor* keyActor) {
+	return keyActor != nullptr;
 }

@@ -17,35 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeMyDoor() {}
 	FIT2097_A2_JACKJ_API UClass* Z_Construct_UClass_AMyDoor();
 	FIT2097_A2_JACKJ_API UClass* Z_Construct_UClass_AStaticReplicatingActor();
 	UPackage* Z_Construct_UPackage__Script_FIT2097_A2_JackJ();
-	FIT2097_A2_JACKJ_API UFunction* Z_Construct_UFunction_AMyDoor_OpenDoor();
 // End Cross Module References
-	static FName NAME_AMyDoor_OpenDoor = FName(TEXT("OpenDoor"));
-	void AMyDoor::OpenDoor()
-	{
-		ProcessEvent(FindFunctionChecked(NAME_AMyDoor_OpenDoor),NULL);
-	}
 	void AMyDoor::StaticRegisterNativesAMyDoor()
 	{
-		UClass* Class = AMyDoor::StaticClass();
-		static const FNameNativePtrPair Funcs[] = {
-			{ "OpenDoor", &AMyDoor::execOpenDoor },
-		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
-	}
-	UFunction* Z_Construct_UFunction_AMyDoor_OpenDoor()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "ModuleRelativePath", "MyDoor.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyDoor, "OpenDoor", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x80220CC0, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
-		}
-		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AMyDoor_NoRegister()
 	{
@@ -59,9 +33,6 @@ void EmptyLinkFunctionForGeneratedCodeMyDoor() {}
 			static UObject* (*const DependentSingletons[])() = {
 				(UObject* (*)())Z_Construct_UClass_AStaticReplicatingActor,
 				(UObject* (*)())Z_Construct_UPackage__Script_FIT2097_A2_JackJ,
-			};
-			static const FClassFunctionLinkInfo FuncInfo[] = {
-				{ &Z_Construct_UFunction_AMyDoor_OpenDoor, "OpenDoor" }, // 3891889511
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -78,7 +49,7 @@ void EmptyLinkFunctionForGeneratedCodeMyDoor() {}
 				&AMyDoor::StaticClass,
 				DependentSingletons, ARRAY_COUNT(DependentSingletons),
 				0x00900080u,
-				FuncInfo, ARRAY_COUNT(FuncInfo),
+				nullptr, 0,
 				nullptr, 0,
 				nullptr,
 				&StaticCppClassTypeInfo,
@@ -89,7 +60,7 @@ void EmptyLinkFunctionForGeneratedCodeMyDoor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyDoor, 2349658980);
+	IMPLEMENT_CLASS(AMyDoor, 422426251);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AMyDoor(Z_Construct_UClass_AMyDoor, &AMyDoor::StaticClass, TEXT("/Script/FIT2097_A2_JackJ"), TEXT("AMyDoor"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMyDoor);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

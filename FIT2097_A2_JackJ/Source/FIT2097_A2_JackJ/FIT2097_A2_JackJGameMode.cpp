@@ -14,4 +14,15 @@ AFIT2097_A2_JackJGameMode::AFIT2097_A2_JackJGameMode()
 
 	// use our custom HUD class
 	HUDClass = AFIT2097_A2_JackJHUD::StaticClass();
+
+	gotKey = false;
+}
+
+void AFIT2097_A2_JackJGameMode::SetGotKey(bool keyState)
+{
+	gotKey = keyState;
+}
+
+bool AFIT2097_A2_JackJGameMode::GetKeyState() {
+	return gotKey;
 }

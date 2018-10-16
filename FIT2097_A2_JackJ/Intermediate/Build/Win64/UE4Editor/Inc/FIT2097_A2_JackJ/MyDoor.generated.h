@@ -13,44 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FIT2097_A2_JACKJ_MyDoor_generated_h
 
-#define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_RPC_WRAPPERS \
-	virtual bool OpenDoor_Validate(); \
-	virtual void OpenDoor_Implementation(); \
- \
-	DECLARE_FUNCTION(execOpenDoor) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		if (!P_THIS->OpenDoor_Validate()) \
-		{ \
-			RPC_ValidateFailed(TEXT("OpenDoor_Validate")); \
-			return; \
-		} \
-		P_THIS->OpenDoor_Implementation(); \
-		P_NATIVE_END; \
-	}
-
-
-#define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	virtual bool OpenDoor_Validate(); \
-	virtual void OpenDoor_Implementation(); \
- \
-	DECLARE_FUNCTION(execOpenDoor) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		if (!P_THIS->OpenDoor_Validate()) \
-		{ \
-			RPC_ValidateFailed(TEXT("OpenDoor_Validate")); \
-			return; \
-		} \
-		P_THIS->OpenDoor_Implementation(); \
-		P_NATIVE_END; \
-	}
-
-
-#define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_EVENT_PARMS
-#define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_CALLBACK_WRAPPERS
+#define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_RPC_WRAPPERS
+#define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_RPC_WRAPPERS_NO_PURE_DECLS
 #define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyDoor(); \
@@ -96,16 +60,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyDoor); \
 
 
 #define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_PRIVATE_PROPERTY_OFFSET
-#define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_12_PROLOG \
-	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_EVENT_PARMS
-
-
+#define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_12_PROLOG
 #define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_PRIVATE_PROPERTY_OFFSET \
 	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_RPC_WRAPPERS \
-	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_CALLBACK_WRAPPERS \
 	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_INCLASS \
 	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_STANDARD_CONSTRUCTORS \
 public: \
@@ -117,7 +77,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_PRIVATE_PROPERTY_OFFSET \
 	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_CALLBACK_WRAPPERS \
 	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_INCLASS_NO_PURE_DECLS \
 	FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_MyDoor_h_15_ENHANCED_CONSTRUCTORS \
 private: \

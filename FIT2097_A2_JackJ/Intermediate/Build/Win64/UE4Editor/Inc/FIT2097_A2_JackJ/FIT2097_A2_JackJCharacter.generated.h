@@ -15,20 +15,36 @@ class AActor;
 #define FIT2097_A2_JACKJ_FIT2097_A2_JackJCharacter_generated_h
 
 #define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_RPC_WRAPPERS \
-	virtual bool ServerDestroy_Validate(AActor* ); \
-	virtual void ServerDestroy_Implementation(AActor* actor_to_destory); \
+	virtual bool RequestGetKey_Validate(AActor* ); \
+	virtual void RequestGetKey_Implementation(AActor* keyActor); \
+	virtual bool RequestOpenDoor_Validate(AActor* ); \
+	virtual void RequestOpenDoor_Implementation(AActor* doorActor); \
  \
-	DECLARE_FUNCTION(execServerDestroy) \
+	DECLARE_FUNCTION(execRequestGetKey) \
 	{ \
-		P_GET_OBJECT(AActor,Z_Param_actor_to_destory); \
+		P_GET_OBJECT(AActor,Z_Param_keyActor); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		if (!P_THIS->ServerDestroy_Validate(Z_Param_actor_to_destory)) \
+		if (!P_THIS->RequestGetKey_Validate(Z_Param_keyActor)) \
 		{ \
-			RPC_ValidateFailed(TEXT("ServerDestroy_Validate")); \
+			RPC_ValidateFailed(TEXT("RequestGetKey_Validate")); \
 			return; \
 		} \
-		P_THIS->ServerDestroy_Implementation(Z_Param_actor_to_destory); \
+		P_THIS->RequestGetKey_Implementation(Z_Param_keyActor); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRequestOpenDoor) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_doorActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		if (!P_THIS->RequestOpenDoor_Validate(Z_Param_doorActor)) \
+		{ \
+			RPC_ValidateFailed(TEXT("RequestOpenDoor_Validate")); \
+			return; \
+		} \
+		P_THIS->RequestOpenDoor_Implementation(Z_Param_doorActor); \
 		P_NATIVE_END; \
 	} \
  \
@@ -42,20 +58,36 @@ class AActor;
 
 
 #define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	virtual bool ServerDestroy_Validate(AActor* ); \
-	virtual void ServerDestroy_Implementation(AActor* actor_to_destory); \
+	virtual bool RequestGetKey_Validate(AActor* ); \
+	virtual void RequestGetKey_Implementation(AActor* keyActor); \
+	virtual bool RequestOpenDoor_Validate(AActor* ); \
+	virtual void RequestOpenDoor_Implementation(AActor* doorActor); \
  \
-	DECLARE_FUNCTION(execServerDestroy) \
+	DECLARE_FUNCTION(execRequestGetKey) \
 	{ \
-		P_GET_OBJECT(AActor,Z_Param_actor_to_destory); \
+		P_GET_OBJECT(AActor,Z_Param_keyActor); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		if (!P_THIS->ServerDestroy_Validate(Z_Param_actor_to_destory)) \
+		if (!P_THIS->RequestGetKey_Validate(Z_Param_keyActor)) \
 		{ \
-			RPC_ValidateFailed(TEXT("ServerDestroy_Validate")); \
+			RPC_ValidateFailed(TEXT("RequestGetKey_Validate")); \
 			return; \
 		} \
-		P_THIS->ServerDestroy_Implementation(Z_Param_actor_to_destory); \
+		P_THIS->RequestGetKey_Implementation(Z_Param_keyActor); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRequestOpenDoor) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_doorActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		if (!P_THIS->RequestOpenDoor_Validate(Z_Param_doorActor)) \
+		{ \
+			RPC_ValidateFailed(TEXT("RequestOpenDoor_Validate")); \
+			return; \
+		} \
+		P_THIS->RequestOpenDoor_Implementation(Z_Param_doorActor); \
 		P_NATIVE_END; \
 	} \
  \
@@ -69,9 +101,13 @@ class AActor;
 
 
 #define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_EVENT_PARMS \
-	struct FIT2097_A2_JackJCharacter_eventServerDestroy_Parms \
+	struct FIT2097_A2_JackJCharacter_eventRequestGetKey_Parms \
 	{ \
-		AActor* actor_to_destory; \
+		AActor* keyActor; \
+	}; \
+	struct FIT2097_A2_JackJCharacter_eventRequestOpenDoor_Parms \
+	{ \
+		AActor* doorActor; \
 	};
 
 

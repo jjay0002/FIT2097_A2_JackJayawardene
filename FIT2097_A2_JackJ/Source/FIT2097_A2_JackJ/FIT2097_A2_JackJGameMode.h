@@ -13,6 +13,9 @@ class AFIT2097_A2_JackJGameMode : public AGameModeBase
 
 public:
 	AFIT2097_A2_JackJGameMode();
+	bool gotKey;
+	void SetGotKey(bool keyState);
+	bool GetKeyState();
 };
 
 

@@ -23,7 +23,6 @@ public:
 	void InteractWithActor();
 	void LerpDoor(float DeltaTime);
 
-	UFUNCTION(Server, Reliable, WithValidation)
-		void OpenDoor();
+	void OpenDoor();
 	
 };
