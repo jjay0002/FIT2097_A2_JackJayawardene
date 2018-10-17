@@ -6,7 +6,7 @@
 
 void AMyKey::InteractWithActor() {
 	if (GEngine) {
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, "YYEET");
+		//GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, "YYEET");
 	}
 	
 	if (GetWorld())
@@ -15,6 +15,7 @@ void AMyKey::InteractWithActor() {
 
 		if (myGameMode) {
 			myGameMode->SetGotKey(true);
+			Destroy();
 		}
 	}
 

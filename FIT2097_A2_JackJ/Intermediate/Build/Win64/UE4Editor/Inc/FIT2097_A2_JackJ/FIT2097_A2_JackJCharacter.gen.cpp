@@ -39,10 +39,11 @@ void EmptyLinkFunctionForGeneratedCodeFIT2097_A2_JackJCharacter() {}
 		ProcessEvent(FindFunctionChecked(NAME_AFIT2097_A2_JackJCharacter_RequestGetKey),&Parms);
 	}
 	static FName NAME_AFIT2097_A2_JackJCharacter_RequestOpenDoor = FName(TEXT("RequestOpenDoor"));
-	void AFIT2097_A2_JackJCharacter::RequestOpenDoor(AActor* doorActor)
+	void AFIT2097_A2_JackJCharacter::RequestOpenDoor(AActor* doorActor, bool hasKey)
 	{
 		FIT2097_A2_JackJCharacter_eventRequestOpenDoor_Parms Parms;
 		Parms.doorActor=doorActor;
+		Parms.hasKey=hasKey ? true : false;
 		ProcessEvent(FindFunctionChecked(NAME_AFIT2097_A2_JackJCharacter_RequestOpenDoor),&Parms);
 	}
 	void AFIT2097_A2_JackJCharacter::StaticRegisterNativesAFIT2097_A2_JackJCharacter()
@@ -103,8 +104,11 @@ void EmptyLinkFunctionForGeneratedCodeFIT2097_A2_JackJCharacter() {}
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
+			auto NewProp_hasKey_SetBit = [](void* Obj){ ((FIT2097_A2_JackJCharacter_eventRequestOpenDoor_Parms*)Obj)->hasKey = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_hasKey = { UE4CodeGen_Private::EPropertyClass::Bool, "hasKey", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(FIT2097_A2_JackJCharacter_eventRequestOpenDoor_Parms), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_hasKey_SetBit)>::SetBit, METADATA_PARAMS(nullptr, 0) };
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_doorActor = { UE4CodeGen_Private::EPropertyClass::Object, "doorActor", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(FIT2097_A2_JackJCharacter_eventRequestOpenDoor_Parms, doorActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_hasKey,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_doorActor,
 			};
 #if WITH_METADATA
@@ -134,7 +138,7 @@ void EmptyLinkFunctionForGeneratedCodeFIT2097_A2_JackJCharacter() {}
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_AFIT2097_A2_JackJCharacter_MyRole, "MyRole" }, // 684766980
 				{ &Z_Construct_UFunction_AFIT2097_A2_JackJCharacter_RequestGetKey, "RequestGetKey" }, // 1284294899
-				{ &Z_Construct_UFunction_AFIT2097_A2_JackJCharacter_RequestOpenDoor, "RequestOpenDoor" }, // 442281714
+				{ &Z_Construct_UFunction_AFIT2097_A2_JackJCharacter_RequestOpenDoor, "RequestOpenDoor" }, // 2700632388
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -310,7 +314,7 @@ void EmptyLinkFunctionForGeneratedCodeFIT2097_A2_JackJCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFIT2097_A2_JackJCharacter, 1407449734);
+	IMPLEMENT_CLASS(AFIT2097_A2_JackJCharacter, 454502249);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFIT2097_A2_JackJCharacter(Z_Construct_UClass_AFIT2097_A2_JackJCharacter, &AFIT2097_A2_JackJCharacter::StaticClass, TEXT("/Script/FIT2097_A2_JackJ"), TEXT("AFIT2097_A2_JackJCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFIT2097_A2_JackJCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

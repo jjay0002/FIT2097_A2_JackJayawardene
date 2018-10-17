@@ -89,6 +89,9 @@ AFIT2097_A2_JackJCharacter::AFIT2097_A2_JackJCharacter()
 
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
+
+	//bool flag to see who has the key
+	bool hasKey = false;
 }
 
 void AFIT2097_A2_JackJCharacter::BeginPlay()
@@ -424,11 +427,11 @@ void AFIT2097_A2_JackJCharacter::CallMyTrace()
 				{
 					GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::White, HitData.GetActor()->GetName());
 					
-					rActor->InteractWithActor();
+					//rActor->InteractWithActor();
 
 					//Open door rpc
 					if (Cast<AMyDoor>(HitData.GetActor()) != nullptr) {
-						RequestOpenDoor(HitData.GetActor());
+						RequestOpenDoor(HitData.GetActor(), HasKey);
 					}
 
 					//Get key rpc
@@ -493,15 +496,17 @@ void AFIT2097_A2_JackJCharacter::ProcessTraceHit(FHitResult& HitOut)
 }
 
 //RPCs for client & server to interact with actors
-void AFIT2097_A2_JackJCharacter::RequestOpenDoor_Implementation(AActor* doorActor) {
+void AFIT2097_A2_JackJCharacter::RequestOpenDoor_Implementation(AActor* doorActor, bool hasKey) {
 
-	if (Cast<AMyDoor>(doorActor) != nullptr) {
-		Cast<AMyDoor>(doorActor)->OpenDoor();
+	if (hasKey) {
+		if (Cast<AMyDoor>(doorActor) != nullptr) {
+			Cast<AMyDoor>(doorActor)->OpenDoor();
+		}
 	}
 
 }
 
-bool AFIT2097_A2_JackJCharacter::RequestOpenDoor_Validate(AActor* doorActor) {
+bool AFIT2097_A2_JackJCharacter::RequestOpenDoor_Validate(AActor* doorActor, bool hasKey) {
 	return doorActor != nullptr;
 }
 
@@ -511,6 +516,10 @@ void AFIT2097_A2_JackJCharacter::RequestGetKey_Implementation(AActor* keyActor) 
 
 	if (Cast<AMyKey>(keyActor) != nullptr) {
 		Cast<AMyKey>(keyActor)->InteractWithActor();
+		if (GEngine) {
+			GEngine->AddOnScreenDebugMessage(-1, 100.0f, FColor::Red, "You have key");
+		}
+		HasKey = true;
 	}
 
 }

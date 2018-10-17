@@ -17,8 +17,8 @@ class AActor;
 #define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_RPC_WRAPPERS \
 	virtual bool RequestGetKey_Validate(AActor* ); \
 	virtual void RequestGetKey_Implementation(AActor* keyActor); \
-	virtual bool RequestOpenDoor_Validate(AActor* ); \
-	virtual void RequestOpenDoor_Implementation(AActor* doorActor); \
+	virtual bool RequestOpenDoor_Validate(AActor* , bool ); \
+	virtual void RequestOpenDoor_Implementation(AActor* doorActor, bool hasKey); \
  \
 	DECLARE_FUNCTION(execRequestGetKey) \
 	{ \
@@ -37,14 +37,15 @@ class AActor;
 	DECLARE_FUNCTION(execRequestOpenDoor) \
 	{ \
 		P_GET_OBJECT(AActor,Z_Param_doorActor); \
+		P_GET_UBOOL(Z_Param_hasKey); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		if (!P_THIS->RequestOpenDoor_Validate(Z_Param_doorActor)) \
+		if (!P_THIS->RequestOpenDoor_Validate(Z_Param_doorActor,Z_Param_hasKey)) \
 		{ \
 			RPC_ValidateFailed(TEXT("RequestOpenDoor_Validate")); \
 			return; \
 		} \
-		P_THIS->RequestOpenDoor_Implementation(Z_Param_doorActor); \
+		P_THIS->RequestOpenDoor_Implementation(Z_Param_doorActor,Z_Param_hasKey); \
 		P_NATIVE_END; \
 	} \
  \
@@ -60,8 +61,8 @@ class AActor;
 #define FIT2097_A2_JackJ_Source_FIT2097_A2_JackJ_FIT2097_A2_JackJCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual bool RequestGetKey_Validate(AActor* ); \
 	virtual void RequestGetKey_Implementation(AActor* keyActor); \
-	virtual bool RequestOpenDoor_Validate(AActor* ); \
-	virtual void RequestOpenDoor_Implementation(AActor* doorActor); \
+	virtual bool RequestOpenDoor_Validate(AActor* , bool ); \
+	virtual void RequestOpenDoor_Implementation(AActor* doorActor, bool hasKey); \
  \
 	DECLARE_FUNCTION(execRequestGetKey) \
 	{ \
@@ -80,14 +81,15 @@ class AActor;
 	DECLARE_FUNCTION(execRequestOpenDoor) \
 	{ \
 		P_GET_OBJECT(AActor,Z_Param_doorActor); \
+		P_GET_UBOOL(Z_Param_hasKey); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		if (!P_THIS->RequestOpenDoor_Validate(Z_Param_doorActor)) \
+		if (!P_THIS->RequestOpenDoor_Validate(Z_Param_doorActor,Z_Param_hasKey)) \
 		{ \
 			RPC_ValidateFailed(TEXT("RequestOpenDoor_Validate")); \
 			return; \
 		} \
-		P_THIS->RequestOpenDoor_Implementation(Z_Param_doorActor); \
+		P_THIS->RequestOpenDoor_Implementation(Z_Param_doorActor,Z_Param_hasKey); \
 		P_NATIVE_END; \
 	} \
  \
@@ -108,6 +110,7 @@ class AActor;
 	struct FIT2097_A2_JackJCharacter_eventRequestOpenDoor_Parms \
 	{ \
 		AActor* doorActor; \
+		bool hasKey; \
 	};
 
 

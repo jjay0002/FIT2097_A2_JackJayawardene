@@ -13,7 +13,7 @@ AFIT2097_A2_JackJGameMode::AFIT2097_A2_JackJGameMode()
 	DefaultPawnClass = PlayerPawnClassFinder.Class;
 
 	// use our custom HUD class
-	HUDClass = AFIT2097_A2_JackJHUD::StaticClass();
+	//HUDClass = AFIT2097_A2_JackJHUD::StaticClass();
 
 	gotKey = false;
 }

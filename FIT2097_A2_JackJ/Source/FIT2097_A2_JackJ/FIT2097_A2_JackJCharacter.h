@@ -160,9 +160,12 @@ public:
 
 	//RPC
 	UFUNCTION(Server, Reliable, WithValidation)
-		void RequestOpenDoor(AActor* doorActor);
+		void RequestOpenDoor(AActor* doorActor, bool hasKey);
 
 	UFUNCTION(Server, Reliable, WithValidation)
 		void RequestGetKey(AActor* keyActor);
+
+	//bool flag to see who has the key
+	bool HasKey;
 };
 
